@@ -13,6 +13,7 @@ para utilizar el programa se introducen los botones tal y como están escritos e
 ### Derechos
 Programa creado bajo terminos de la Licencia Pública General de GNU publicada por la Free Software Foundation, version 3. 
 Las imágenes utilizadas (menos la flecha) fueron sacadas de los iconos de @xelubest, para mas información leer el readme.txt en /Botones
+
 la flecha (/Botones/XboxOne/XboxOne_flecha.png) fue diseñada usando inkscape y también se encuentra bajo la licencia GPL3.
 
 Copyright (c) 2021 Roberto Rodriguez Márquez.
