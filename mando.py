@@ -17,6 +17,9 @@
 
 
 from PIL import Image,ImageFilter 
+import os
+
+full_path = os.path.realpath(__file__)
 
 #declaracion de funciones
 def botones(lista,listaBotones,modelo):
@@ -26,7 +29,7 @@ def botones(lista,listaBotones,modelo):
     return lista
 
 def direccion(modelo,boton):
-    direccion = ('Botones/'+modelo+'/'+modelo+'_'+boton+'.png')
+    direccion = (full_path)+"/"+'Botones/'+modelo+'/'+modelo+'_'+boton+'.png')
     return direccion
 
 
@@ -78,5 +81,5 @@ for elemento in botonesPulsados:
 
 
 nombre = input("Introduzca el nombre del archivo final\n")
-result.save("Final/"+nombre+".png","PNG")
+result.save(full_path)+"/"+"Final/"+nombre+".png","PNG")
 result.show()
